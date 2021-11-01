@@ -20,6 +20,8 @@ Vue.js 실습을 통한 Study
   - router 추가 :  ``vue add router``
 - Lazy Load (비동기 컴포넌트) 구성하기
   - prefetch 전략을 잘 세워야 성능 이슈가 없다. 
+> 진도
+ - 속성(attribute)에 데이터 바인딩 강좌 차례
    
         
 
