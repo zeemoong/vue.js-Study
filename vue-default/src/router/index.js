@@ -20,6 +20,21 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/basic',
+    name: 'Basic',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Basic.vue')
+  },
+  {
+    path: '/dataBinding',
+    name: 'DataBinding',
+    component: () => import(/* webpackChunkName: "about" */ '../views/DataBinding.vue')
+  },
+  {
+    path: '/dataBindingHtml',
+    name: 'DataBindingHtml',
+    component: () => import(/* webpackChunkName: "about" */ '../views/DataBindingHtml.vue')
   }
 ]
 
